@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<head>
+    <title>Sabji Wallah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footerStyle.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!--Link for Swiper from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!--Link for Swiper from CDN-->
+
+</head>
+<body>
+    <!-- nav bar -->
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fa-solid fa-apple-whole" style="color: #ffffff;"> sabji wallah</i></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#contactus">contact us</a>
+            <a href="#profile">profile</a>
+            <a href="#category">category</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <!-- shopping cart-->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image\cart-img-1.png">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">₹70/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image\cart-img-2.png">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">₹89/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image\cart-img-3.png">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">₹180/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+    
+            <div class="total">Total : ₹339/-</div>
+            <a href="#" class="btn">Checkout</a>
+    
+        </div>
+        <!-- login form -->
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+
+        <p>Forgot your password <a href="#">Click Here</a></p>
+        <p>Don't have an Account <a href="signupPage/index.html">Create Now</a></p>
+
+            <input type="submit" name="Login Now" class="btn">
+</form>
+<form class="search-form">
+    <input type="search" placeholder="Search here...." id="search-box">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+</header>
+
+<!-- home section -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3 class="gradient-text">Harvesting Nature's Bounty: Discover the Flavors of Freshness</h3>
+        <p>Welcome to Subji Wallah - Where Freshness Meets Flavor. Discover the Finest Selection of Farm-Fresh Produce. Embrace Nature's Bounty in Every Bite.</p>
+        <a href="#" class="btn">Buy Freshness</a>
+    </div>
+</section>
+
+
+<!-- Product Section -->
+<section class="products" id="products">
+    <h1 class="products-heading">Our<span>Products</span></h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/cabbage.jpg" alt="Image 1">
+                <h1>Cabbage</h1>
+                <div class="price">₹80/- -₹100/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/carrot.jpg" alt="Image 2">
+                <h1>Carror</h1>
+                <div class="price">₹80/- -₹100/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/cauliflower.jpg" alt="Image 3">
+                <h1>Cauliflower</h1>
+                <div class="price">₹80/- -₹100/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/onion.jpg" alt="Image 4">
+                <h1>Onion</h1>
+                <div class="price">₹80/- -₹100/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+        </div>
+    </div>
+
+    
+</section>
+<!-- Product Section -->
+
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">Queries</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">ispum</a></li>
+                        <li><a href="#">ipsum dolor</a></li>
+                        <li><a href="#">sit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect with  us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+</html>

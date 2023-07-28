@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #googleSignup {
+    background-color: #db4437;
+    margin-top: 10px;
+  }
+  
+  .separator {
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .separator-text {
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  .separator hr {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
